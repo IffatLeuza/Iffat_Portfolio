@@ -11,29 +11,51 @@ body{
 .button_primary{     /* link button Hire decoration*/
         border-radius: 5px;
         background-color: orangered;
+        border: 0px;
+        font-size: 20px;
+        font-weight: 700;
+        color: azure;
     }
     /* nav fonts */
 nav h3{
-
     font-weight: 800;
     font-size: 50px;
 }
 
 /* link style */
-nav {
-     display: flex;  
-   }  /* To flex the list*/
+nav { 
+    display: flex;  /* To flex the list*/
+
+    justify-content: space-between;
+    /* To move h3 tag and ul tag(Iffat & Hire)opposite side */
+    align-items: center; /*To keep items in same line*/
+    margin: 0, 150px;
+}
 
 nav li{
     list-style: none;
     margin-right: 50px;  /* keep gap between the links*/
     }
 nav a {
+    font-size: 15px;
     text-align: right;
     text-decoration: none;
     color: rgb(78, 48, 48);  /* link text color*/
 }
  nav > ul{
-    display: flex;
- }   /* To flex all the anchor tag inside list*/
+    display: flex; 
+    /* To flex all the anchor tag inside list*/
 
+    align-items: centre;
+    /* will keep all the anchor inside list and h3 in a vertical line */
+ }   
+
+ .banner{
+    padding: 30px, 30px, 30px, 150px;
+    display :flex;
+ }
+
+ .profile_pic{
+    width: 300px;
+    height: 400px;
+ }
