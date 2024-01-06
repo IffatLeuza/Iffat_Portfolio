@@ -1,0 +1,39 @@
+/* Shared style */
+body{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* colors */
+.primary_color{ 
+    color: orangered;
+    }
+.button_primary{     /* link button Hire decoration*/
+        border-radius: 5px;
+        background-color: orangered;
+    }
+    /* nav fonts */
+nav h3{
+
+    font-weight: 800;
+    font-size: 50px;
+}
+
+/* link style */
+nav {
+     display: flex;  
+   }  /* To flex the list*/
+
+nav li{
+    list-style: none;
+    margin-right: 50px;  /* keep gap between the links*/
+    }
+nav a {
+    text-align: right;
+    text-decoration: none;
+    color: rgb(78, 48, 48);  /* link text color*/
+}
+ nav > ul{
+    display: flex;
+ }   /* To flex all the anchor tag inside list*/
+
