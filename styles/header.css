@@ -39,7 +39,7 @@
     background: rgb(255, 231, 239);
 }
 
-.section_title{
+.section_title{        /* Shared title styles*/
     font-size: 40px;
     color: black;
     font-weight: 300px;
@@ -49,6 +49,7 @@
 .section_para{
     color: rgb(108, 99, 99);
     font-size: 20px;
+    padding: 30px 150px;
 }
 .about_footer_info{
     display: flex;
@@ -66,3 +67,16 @@
     text-align: center;
     margin: 0px;
     }
+
+/* what i do styles */
+.skills_container{
+    display: flex;
+    padding: 20px 100px;
+}
+.what_i_do_skill_section{
+    padding: 30px 50px;
+}
+.skill_section_para{
+    color: rgb(108, 99, 99);
+    font-size: 20px;
+}
