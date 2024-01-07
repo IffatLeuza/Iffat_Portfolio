@@ -15,6 +15,7 @@ body{
         font-size: 20px;
         font-weight: 700;
         color: azure;
+        padding: 20px;
     }
     /* nav fonts */
 nav h3{
@@ -29,7 +30,7 @@ nav {
     justify-content: space-between;
     /* To move h3 tag and ul tag(Iffat & Hire)opposite side */
     align-items: center; /*To keep items in same line*/
-    margin: 0, 150px;
+    margin: 0 150px;
 }
 
 nav li{
@@ -46,16 +47,6 @@ nav a {
     display: flex; 
     /* To flex all the anchor tag inside list*/
 
-    align-items: centre;
+    align-items: center;
     /* will keep all the anchor inside list and h3 in a vertical line */
  }   
-
- .banner{
-    padding: 30px, 30px, 30px, 150px;
-    display :flex;
- }
-
- .profile_pic{
-    width: 300px;
-    height: 400px;
- }
